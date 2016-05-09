@@ -1,0 +1,49 @@
+<div id="contact" class="container-fluid">
+    
+<form name="contact" ng-submit="submit(contact)" novalidate>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" autocomplete="off"
+                    ng-model="name"
+                    ng-model-options="{updateOn: 'blur'}"
+                    required
+                    ng-minlength="5"
+                    ng-maxlength="70">
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email" autocomplete="off"
+                    ng-model="email"
+                    ng-model-options="{updateOn: 'blur'}"
+                    required
+                    ng-minlength="3"
+                    ng-maxlength="254">
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" autocomplete="off"
+            ng-model="subject"
+            ng-model-options="{updateOn: 'blur'}"
+            required
+            ng-minlength="5"
+            ng-maxlength="30">
+    </div>
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"
+            ng-model="message"
+            ng-model-options="{updateOn: 'blur'}"
+            required
+            ng-minlength="140"
+            ng-maxlength="1400"></textarea>
+    </div>
+    <button type="submit" class="btn btn-default"><i class="icon fa fa-envelope-o"></i> Send</button>
+</form>
+    
+</div>

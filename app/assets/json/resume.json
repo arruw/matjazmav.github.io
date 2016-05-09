@@ -1,0 +1,120 @@
+{
+  "basics": {
+    "name": "Matjaž Mav",
+    "label": "Software Developer",
+    "picture": "https://pbs.twimg.com/profile_images/715120402205380608/Qh3_v8Mf.jpg",
+    "email": "matjaz.mav@gmail.com",
+    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "location": {
+      "city": "Kamnik",
+      "country": "Slovenia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "matjazmav",
+        "url": "https://si.linkedin.com/in/matjazmav"
+      },
+      {
+        "network": "GitHub",
+        "username": "matjazmav",
+        "url": "https://github.com/matjazmav"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "matjaž-mav",
+        "url": "http://stackoverflow.com/users/2534273/matjaž-mav"
+      },
+      {
+        "network": "Twitter",
+        "username": "matjazmav",
+        "url": "https://twitter.com/matjazmav"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Adacta, programska oprema d.o.o",
+      "position": "Microsoft Dynamics CRM Developer",
+      "website": "www.adacta.si",
+      "startDate": "2015-07",
+      "endDate": "2015-10",
+      "summary": "Developing custom solutions for Microsoft Dynamics CRM.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Vegova Ljubljana",
+      "area": "Computer and Information Science",
+      "studyType": "Secondary School",
+      "startDate": "2009-09",
+      "endDate": "2013-06",
+      "courses": []
+    },
+    {
+      "institution": "Faculty of Computer and Information Science, University of Ljubljana",
+      "area": "Computer and Information Science",
+      "studyType": "Bachelor",
+      "startDate": "2013-10",
+      "endDate": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Advanced",
+      "keywords": [
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "Responsive Design",
+        "AngularJS",
+        "ASP.NET"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "level": "Beginer",
+      "keywords": [
+        "Android",
+        "Cordova"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Slovenia",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Good working knowledge"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Computer Science",
+      "keywords": [
+        "Software Development",
+        "Web Design",
+        "UX"
+      ]
+    },
+    {
+      "name": "Health",
+      "keywords": [
+        "Nutrition"
+      ]
+    },
+    {
+      "name": "Sports",
+      "keywords": [
+        "Running",
+        "Mountaineering ",
+        "Fitness"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="dist/css/all.min.css">
+    <title>Matjaž Mav | Resume</title>
+
+</head>
+<body>
+        
+    <div id="header">
+        
+    </div>
+    
+    <div id="sidebar" class="sidebar-min" ng-controller="sidebarCtrl">
+        <ul>
+            <li><a href="" id="menu" class="menu" ng-click="sidebarToggle()"><i class="icon fa fa-bars"></i></a></li>
+            
+            
+            <li>
+                <a href="#/#about" ng-class="{active: isSelected('/') || isSelected('')}"><i class="icon fa fa-file-o"></i><span class="text">About Me</span></a>
+                <ul>
+                    <li><a href="#/#work"><i class="icon fa fa-building-o"></i><span class="text">Work</span></a></li>
+                    <li><a href="#/#education"><i class="icon fa fa-graduation-cap"></i><span class="text">Education</span></a></li>
+                    <li><a href="#/#skills"><i class="icon fa fa-star-o"></i><span class="text">Skills</span></a></li>
+                    <li><a href="#/#interests"><i class="icon fa fa-heart-o"></i><span class="text">Interests</span></a></li>
+                </ul>
+            </li>
+            <li class="hidden"><a href="#/resume#resume" ng-class="{active: isSelected('/reader')}"><i class="icon fa fa-bookmark-o"></i><span class="text">Reader</span></a></li>
+            <li><a href="#/contact" ng-class="{'active': isSelected('/contact')}"><i class="icon fa fa-envelope-o"></i><span class="text">Contact Me</span></a></li>
+            <li class="hidden"><a href="#/blog" ng-class="{'active': isSelected('/blog')}"><i class="icon fa fa-rss"></i><span class="text">Blog</span></a></li>
+        </ul>
+        <ul class="bottom social hidden-land-xs">
+            <li><a href="https://si.linkedin.com/in/matjazmav" target="_blank"><i class="icon fa fa-linkedin"></i></a></li>
+            <li><a href="http://stackoverflow.com/users/2534273/matja%C5%BE-mav?tab=profile" target="_blank"><i class="icon fa fa-stack-overflow"></i></a></li>
+            <li><a href="https://github.com/matjazmav" target="_blank"><i class="icon fa fa-github"></i></a></li>
+            <li><a href="https://twitter.com/matjazmav" target="_blank"><i class="icon fa fa-twitter"></i></a></li>
+        </ul>
+    </div>
+    
+    <div id="content">
+        <div ng-view></div>
+    </div>
+    
+    <div id="footer" class="container-fluid">
+        <div class="row">
+            <div>
+                <div class="col-xs-6">
+                    <ul class="social visible-land-xs">
+                        <li><a href="https://si.linkedin.com/in/matjazmav" target="_blank"><i class="icon fa fa-linkedin"></i></a></li>
+                        <li><a href="http://stackoverflow.com/users/2534273/matja%C5%BE-mav?tab=profile" target="_blank"><i class="icon fa fa-stack-overflow"></i></a></li>
+                        <li><a href="https://github.com/matjazmav" target="_blank"><i class="icon fa fa-github"></i></a></li>
+                        <li><a href="https://twitter.com/matjazmav" target="_blank"><i class="icon fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 text-right">
+                    by <a href="https://si.linkedin.com/in/matjazmav" target="_blank">Matjaž Mav</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="dist/js/all.min.js"></script>
+</body>
+</html>
