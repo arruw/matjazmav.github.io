@@ -26,25 +26,15 @@
 }
 
 .word-wrap-space {
-    // white-space: -moz-pre-wrap;
-    // white-space: -webkit-pre-wrap;
-    // white-space: -pre-wrap;
-    // white-space: -o-pre-wrap;
-    // white-space: pre-wrap;
-    white-space: normal;
-    word-wrap: break-word;
-    word-break: normal;
+    white-space: normal !important;
+    word-wrap: normal !important;
+    word-break: normal !important;
 }
 
 .word-wrap-any {
-    // white-space: -moz-pre-wrap;
-    // white-space: -webkit-pre-wrap;
-    // white-space: -pre-wrap;
-    // white-space: -o-pre-wrap;
-    // white-space: pre-wrap;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    word-break: normal;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
 }
 
 .json {
@@ -55,9 +45,9 @@
     line-height: 19px;
     font-size: 14px;
     min-width: 750px;
+    max-width: 1000px;
     padding-right: 20px;
-    // white-space: nowrap;
-    // overflow-x: auto;
+    border-right: 1px solid @color-02;
     &:extend(.no-select);
     &:extend(.word-wrap-space);
     .json-number {
@@ -90,10 +80,10 @@
     
     .json-row {
         display: table;
+        table-layout: fixed;
     }
     
     .json-line-number {
-        // display: inline-block;
         display: table-cell;
         color: @color-line-number;
         background-color: @color-background;
@@ -106,12 +96,8 @@
     }
     
     .json-row-content {
-        // display: inline-block;
         display: table-cell;
         width: calc(~'100% - 80px');
-        word-break: break-all;
-        word-spacing: normal;
-        word-wrap: break-word;
         &:hover{
             background-color: @color-background-hover;
         }
