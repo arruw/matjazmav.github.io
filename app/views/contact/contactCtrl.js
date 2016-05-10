@@ -35,7 +35,7 @@ angular.module('app.views.contact', [])
             $scope.submitting = false;
             console.error(response);
             $.notify({
-                message: 'Ops, something went wrong... Please send email to "matjaz.mav@gmail.com".' 
+                message: 'Ops, something went wrong... Please send email to "<a href="mailto:matjaz.mav@gmail.com">matjaz.mav@gmail.com</a>".' 
             },{
                 type: 'danger'
             });
