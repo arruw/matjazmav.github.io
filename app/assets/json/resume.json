@@ -3,9 +3,8 @@
   "basics": {
     "name": "Matjaž Mav",
     "label": "Software Developer",
-    "picture": "https://pbs.twimg.com/profile_images/715120402205380608/Qh3_v8Mf.jpg",
     "email": "matjaz.mav@gmail.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "summary": "Highly motivated, focused, ingenious and capable of team work senior student. Software developer who can think out of the box. Lifelong learner who is always expending horizons and working with latest technologies. Strong in web development and confident working on full stack, with wide set of skills.",
     "location": {
       "city": "Kamnik",
       "country": "Slovenia"
@@ -40,8 +39,7 @@
       "website": "www.adacta.si",
       "startDate": "2015-07",
       "endDate": "2015-10",
-      "summary": "Developing custom solutions for Microsoft Dynamics CRM.",
-      "highlights": []
+      "summary": "Developing custom solutions for Microsoft Dynamics CRM."
     }
   ],
   "education": [
@@ -50,16 +48,14 @@
       "area": "Computer and Information Science",
       "studyType": "Secondary School",
       "startDate": "2009-09",
-      "endDate": "2013-06",
-      "courses": []
+      "endDate": "2013-06"
     },
     {
       "institution": "Faculty of Computer and Information Science, University of Ljubljana",
       "area": "Computer and Information Science",
       "studyType": "Bachelor",
       "startDate": "2013-10",
-      "endDate": "",
-      "courses": []
+      "endDate": ""
     }
   ],
   "skills": [
@@ -92,30 +88,6 @@
     {
       "language": "English",
       "fluency": "Good working knowledge"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Computer Science",
-      "keywords": [
-        "Software Development",
-        "Web Design",
-        "UX"
-      ]
-    },
-    {
-      "name": "Health",
-      "keywords": [
-        "Nutrition"
-      ]
-    },
-    {
-      "name": "Sports",
-      "keywords": [
-        "Running",
-        "Mountaineering ",
-        "Fitness"
-      ]
     }
   ]
 }

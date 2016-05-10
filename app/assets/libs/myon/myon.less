@@ -25,15 +25,26 @@
     -ms-user-select: none;                
 }
 
-.word-wrap {
-    white-space: -moz-pre-wrap;
-    white-space: -webkit-pre-wrap;
-    white-space: -pre-wrap;
-    white-space: -o-pre-wrap;
+.word-wrap-space {
+    // white-space: -moz-pre-wrap;
+    // white-space: -webkit-pre-wrap;
+    // white-space: -pre-wrap;
+    // white-space: -o-pre-wrap;
+    // white-space: pre-wrap;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.word-wrap-any {
+    // white-space: -moz-pre-wrap;
+    // white-space: -webkit-pre-wrap;
+    // white-space: -pre-wrap;
+    // white-space: -o-pre-wrap;
+    // white-space: pre-wrap;
     white-space: pre-wrap;
     word-wrap: break-word;
-    word-break: break-all;
-    white-space: normal;
+    word-break: normal;
 }
 
 .json {
@@ -44,13 +55,15 @@
     line-height: 19px;
     font-size: 14px;
     min-width: 750px;
+    padding-right: 20px;
     // white-space: nowrap;
     // overflow-x: auto;
     &:extend(.no-select);
+    &:extend(.word-wrap-space);
     .json-number {
         color: @color-number;
     }
-
+    
     .json-string {
         color: @color-string;
         word-break: normal;
@@ -67,6 +80,8 @@
         &:hover {
             color: @color-url-hover;
         }
+        
+        &:extend(.word-wrap-any);
     }
     
     .json-key {
