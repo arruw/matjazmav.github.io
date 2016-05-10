@@ -1,15 +1,11 @@
 (function() {'use strict';
     
-angular.module('app', ['ngRoute', 'jcs-autoValidate', 'app.views.about', 'app.views.resume', 'app.views.contact'])
+angular.module('app', ['ngRoute', 'angular-ladda', 'jcs-autoValidate', 'app.views.about', 'app.views.resume', 'app.views.contact'])
 .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     $routeProvider.
         when('/', {
             templateUrl: 'app/views/about/aboutView.html',
             controller: 'aboutCtrl' 
-        }).
-        when('/resume', {
-            templateUrl: 'app/views/resume/resumeView.html',
-            controller: 'resumeCtrl' 
         }).
         when('/contact', {
             templateUrl: 'app/views/contact/contactView.html',
