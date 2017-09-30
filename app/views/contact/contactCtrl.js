@@ -3,12 +3,14 @@
 angular.module('app.views.contact', [])
 .controller('contactCtrl', ['$scope', '$http', '$httpParamSerializer', function($scope, $http, $httpParamSerializer) {
     
+    var email = 'bWF0amF6Lm1hdkBnbWFpbC5jb20=';
+
     $scope.submitting = false;
     $scope.submit = function(form) {
         $scope.submitting = true;
         $http({
             method: 'POST',
-            url: 'api/send.php',
+            url: 'https://formspree.io/' + atob(email),
             data: $httpParamSerializer({
                 'name': $scope.name,
                 'email': $scope.email,
@@ -35,13 +37,13 @@ angular.module('app.views.contact', [])
             $scope.submitting = false;
             console.error(response);
             $.notify({
-                message: 'Ops, something went wrong... Please send email to "<a href="mailto:matjaz.mav@gmail.com">matjaz.mav@gmail.com</a>".' 
+                message: 'Ops, something went wrong... Please send email to "<a href="mailto:' + atob(email) + '">' + atob(email) + '</a>".' 
             },{
                 type: 'danger'
             });
         });
     };
-    
+
 }]);
     
 })();

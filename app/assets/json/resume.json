@@ -32,9 +32,17 @@
   },
   "work": [
     {
+      "company": "Agitavit Solutions d.o.o.",
+      "position": "Software Developer",
+      "website": "https://www.agitavit.com/",
+      "startDate": "2016-08",
+      "endDate": null,
+      "summary": "Full-stack web developer, developing custom business web applications."
+    },
+    {
       "company": "Adacta, programska oprema d.o.o",
       "position": "Microsoft Dynamics CRM Developer",
-      "website": "www.adacta.si",
+      "website": "https://www.adacta.si/",
       "startDate": "2015-07",
       "endDate": "2015-10",
       "summary": "Developing custom solutions for Microsoft Dynamics CRM."
@@ -42,18 +50,18 @@
   ],
   "education": [
     {
+      "institution": "Faculty of Computer and Information Science, University of Ljubljana",
+      "area": "Computer and Information Science",
+      "studyType": "Bachelor",
+      "startDate": "2013-10",
+      "endDate": null
+    },
+    {
       "institution": "Vegova Ljubljana",
       "area": "Computer and Information Science",
       "studyType": "Secondary School",
       "startDate": "2009-09",
       "endDate": "2013-06"
-    },
-    {
-      "institution": "Faculty of Computer and Information Science, University of Ljubljana",
-      "area": "Computer and Information Science",
-      "studyType": "Bachelor",
-      "startDate": "2013-10",
-      "endDate": ""
     }
   ],
   "skills": [
@@ -65,8 +73,9 @@
         "JavaScript",
         "CSS",
         "Responsive Design",
-        "AngularJS",
-        "ASP.NET"
+        "ASP.NET MVC & WebAPI 2",
+        "ASP.NET Core",
+        "AngularJS"
       ]
     },
     {
