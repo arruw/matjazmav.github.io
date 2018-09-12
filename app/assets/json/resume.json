@@ -54,7 +54,7 @@
       "area": "Computer and Information Science",
       "studyType": "Bachelor",
       "startDate": "2013-10",
-      "endDate": null
+      "endDate": "2018-09"
     },
     {
       "institution": "Vegova Ljubljana",
@@ -72,18 +72,16 @@
         "HTML",
         "JavaScript",
         "CSS",
-        "Responsive Design",
-        "ASP.NET MVC & WebAPI 2",
+        "ASP.NET MVC & API"
         "ASP.NET Core",
-        "AngularJS"
+        "T-SQL"
       ]
     },
     {
       "name": "Mobile Development",
       "level": "Beginer",
       "keywords": [
-        "Android",
-        "Cordova"
+        "Android"
       ]
     }
   ],
