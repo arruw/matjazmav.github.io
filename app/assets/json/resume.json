@@ -1,98 +1,93 @@
 {
-  "basics": {
-    "name": "Matjaž Mav",
-    "label": "Software Developer",
-    "summary": "Highly motivated, focused, ingenious and capable of team work senior student. Software developer who can think out of the box. Lifelong learner who is always expending horizons and working with latest technologies. Strong in web development and confident working on full stack, with wide set of skills.",
-    "location": {
-      "city": "Kamnik",
-      "country": "Slovenia"
-    },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "matjazmav",
-        "url": "https://si.linkedin.com/in/matjazmav"
-      },
-      {
-        "network": "GitHub",
-        "username": "matjazmav",
-        "url": "https://github.com/matjazmav"
-      },
-      {
-        "network": "Stack Overflow",
-        "username": "matjaž-mav",
-        "url": "http://stackoverflow.com/users/2534273/matjaž-mav"
-      },
-      {
-        "network": "Twitter",
-        "username": "matjazmav",
-        "url": "https://twitter.com/matjazmav"
-      }
-    ]
-  },
-  "work": [
-    {
-      "company": "Agitavit Solutions d.o.o.",
-      "position": "Software Developer",
-      "website": "https://www.agitavit.com/",
-      "startDate": "2016-08",
-      "endDate": null,
-      "summary": "Full-stack web developer, developing custom business web applications."
-    },
-    {
-      "company": "Adacta, programska oprema d.o.o",
-      "position": "Microsoft Dynamics CRM Developer",
-      "website": "https://www.adacta.si/",
-      "startDate": "2015-07",
-      "endDate": "2015-10",
-      "summary": "Developing custom solutions for Microsoft Dynamics CRM."
-    }
-  ],
-  "education": [
-    {
-      "institution": "Faculty of Computer and Information Science, University of Ljubljana",
-      "area": "Computer and Information Science",
-      "studyType": "Bachelor",
-      "startDate": "2013-10",
-      "endDate": "2018-09"
-    },
-    {
-      "institution": "Vegova Ljubljana",
-      "area": "Computer and Information Science",
-      "studyType": "Secondary School",
-      "startDate": "2009-09",
-      "endDate": "2013-06"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "Advanced",
-      "keywords": [
-        "HTML",
-        "JavaScript",
-        "CSS",
-        "ASP.NET MVC & API"
-        "ASP.NET Core",
-        "T-SQL"
-      ]
-    },
-    {
-      "name": "Mobile Development",
-      "level": "Beginer",
-      "keywords": [
-        "Android"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Slovenia",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Good working knowledge"
-    }
-  ]
+	"basics": {
+		"name": "Matjaž Mav",
+		"label": "Software Developer",
+		"summary": "Highly motivated, focused, ingenious and capable of team work senior student. Software developer who can think out of the box. Lifelong learner who is always expending horizons and working with latest technologies. Strong in web development and confident working on full stack, with wide set of skills.",
+		"location": {
+			"city": "Kamnik",
+			"country": "Slovenia"
+		},
+		"profiles": [{
+				"network": "LinkedIn",
+				"username": "matjazmav",
+				"url": "https://si.linkedin.com/in/matjazmav"
+			},
+			{
+				"network": "GitHub",
+				"username": "matjazmav",
+				"url": "https://github.com/matjazmav"
+			},
+			{
+				"network": "Stack Overflow",
+				"username": "matjaž-mav",
+				"url": "http://stackoverflow.com/users/2534273/matjaž-mav"
+			},
+			{
+				"network": "Twitter",
+				"username": "matjazmav",
+				"url": "https://twitter.com/matjazmav"
+			}
+		]
+	},
+	"work": [{
+			"company": "Agitavit Solutions d.o.o.",
+			"position": "Software Developer",
+			"website": "https://www.agitavit.com/",
+			"startDate": "2016-08",
+			"endDate": null,
+			"summary": "Full-stack web developer, developing custom business web applications."
+		},
+		{
+			"company": "Adacta, programska oprema d.o.o",
+			"position": "Microsoft Dynamics CRM Developer",
+			"website": "https://www.adacta.si/",
+			"startDate": "2015-07",
+			"endDate": "2015-10",
+			"summary": "Developing custom solutions for Microsoft Dynamics CRM."
+		}
+	],
+	"education": [{
+			"institution": "Faculty of Computer and Information Science, University of Ljubljana",
+			"area": "Computer and Information Science",
+			"studyType": "Bachelor",
+			"startDate": "2013-10",
+			"endDate": "2018-09"
+		},
+		{
+			"institution": "Vegova Ljubljana",
+			"area": "Computer and Information Science",
+			"studyType": "Secondary School",
+			"startDate": "2009-09",
+			"endDate": "2013-06"
+		}
+	],
+	"skills": [{
+			"name": "Web Development",
+			"level": "Advanced",
+			"keywords": [
+				"HTML",
+				"JavaScript",
+				"CSS",
+				"ASP.NET MVC & API",
+				"ASP.NET Core",
+				"T-SQL"
+			]
+		},
+		{
+			"name": "Mobile Development",
+			"level": "Beginer",
+			"keywords": [
+				"Android"
+			]
+		}
+	],
+	"languages": [{
+			"language": "Slovenia",
+			"fluency": "Native speaker"
+		},
+		{
+			"language": "English",
+			"fluency": "Good working knowledge"
+		}
+	]
 }
