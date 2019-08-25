@@ -46,7 +46,15 @@
 			"summary": "Developing custom solutions for Microsoft Dynamics CRM."
 		}
 	],
-	"education": [{
+	"education": [
+		{
+			"institution": "Faculty of Computer and Information Science, University of Ljubljana",
+			"area": "Computer and Information Science",
+			"studyType": "Masters",
+			"startDate": "2018-10",
+			"endDate": null
+		},
+		{
 			"institution": "Faculty of Computer and Information Science, University of Ljubljana",
 			"area": "Computer and Information Science",
 			"studyType": "Bachelor",
