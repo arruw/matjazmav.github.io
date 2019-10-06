@@ -2,7 +2,7 @@
 	"basics": {
 		"name": "Matjaž Mav",
 		"label": "Software Developer",
-		"summary": "Highly motivated, focused, ingenious and capable of team work senior student. Software developer who can think out of the box. Lifelong learner who is always expending horizons and working with latest technologies. Strong in web development and confident working on full stack, with wide set of skills.",
+		"summary": "A highly motivated software developer who can think out of the box. A lifelong learner who is always expending horizons and working with the latest technologies. Strong in web development and confident working on full-stack, with a wide set of skills.",
 		"location": {
 			"city": "Kamnik",
 			"country": "Slovenia"
@@ -70,22 +70,24 @@
 		}
 	],
 	"skills": [{
-			"name": "Web Development",
+			"name": "Full-stack Web Development",
 			"level": "Advanced",
 			"keywords": [
-				"HTML",
-				"JavaScript",
-				"CSS",
 				"ASP.NET MVC & API",
 				"ASP.NET Core",
-				"T-SQL"
+				"T-SQL",
+				"JavaScript",
+				"jQuery"
 			]
 		},
 		{
-			"name": "Mobile Development",
+			"name": "Front-end Web Development",
 			"level": "Beginer",
 			"keywords": [
-				"Android"
+				"React",
+				"Angular 2+",
+				"AngularJS",
+				"TypeScript"
 			]
 		}
 	],
