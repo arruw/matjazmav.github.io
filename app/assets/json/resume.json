@@ -1,5 +1,8 @@
 {
-	"note": "This online resume is not keept up to date, please visit my LinkedIn page: https://si.linkedin.com/in/matjazmav",
+	"note": {
+		"message": "This online resume is not keept up to date, please visit my LinkedIn page.",
+		"url": "https://si.linkedin.com/in/matjazmav"
+	},
 	"basics": {
 		"name": "Matjaž Mav",
 		"label": "Software Engineer",
