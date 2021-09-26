@@ -10,7 +10,7 @@ angular.module('app.views.contact', [])
         $scope.submitting = true;
         $http({
             method: 'POST',
-            url: 'https://formspree.io/' + atob(email),
+            url: 'https://formspree.io/f/' + atob(email),
             data: $httpParamSerializer({
                 'name': $scope.name,
                 'email': $scope.email,
