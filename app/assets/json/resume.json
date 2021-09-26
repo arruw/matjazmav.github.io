@@ -2,9 +2,9 @@
 	"basics": {
 		"name": "Matjaž Mav",
 		"label": "Software Developer",
-		"summary": "A highly motivated software developer who can think out of the box. A lifelong learner who is always expending horizons and working with the latest technologies. Strong in web development and confident working on full-stack, with a wide set of skills.",
+		"summary": "A highly motivated software engineer who can think out of the box. A lifelong learner who is always expanding horizons and working with the latest technologies. Strong in web development and confident working on full-stack, with a wide set of skills.",
 		"location": {
-			"city": "Kamnik",
+			"city": "Ljubljana",
 			"country": "Slovenia"
 		},
 		"profiles": [{
@@ -29,21 +29,30 @@
 			}
 		]
 	},
-	"work": [{
+	"work": [
+		{
+			"company": "Celtra",
+			"position": "Backend Software Engineer Intern",
+			"website": "https://www.agitavit.com/",
+			"startDate": "2019-12",
+			"endDate": "2021-08",
+			"summary": "Worked as a backend software engineer in the analytics team. Making sure that our ETL pipelines and supporting services are up and running."
+		},
+		{
 			"company": "Agitavit Solutions d.o.o.",
-			"position": "Software Developer",
+			"position": "Full-Stack Software Engineer",
 			"website": "https://www.agitavit.com/",
 			"startDate": "2016-08",
-			"endDate": null,
-			"summary": "Full-stack web developer, developing custom business web applications."
+			"endDate": "2019-12",
+			"summary": "Worked as a full-stack software engineer, as a mentor to new employees and as a technical lead on a few projects."
 		},
 		{
 			"company": "Adacta, programska oprema d.o.o",
-			"position": "Microsoft Dynamics CRM Developer",
+			"position": "Software Engineer Intern",
 			"website": "https://www.adacta.si/",
 			"startDate": "2015-07",
 			"endDate": "2015-10",
-			"summary": "Developing custom solutions for Microsoft Dynamics CRM."
+			"summary": "Worked as an developer in a Microsoft Dynamics CRM team."
 		}
 	],
 	"education": [
@@ -91,13 +100,14 @@
 			]
 		}
 	],
-	"languages": [{
-			"language": "Slovenia",
-			"fluency": "Native speaker"
-		},
+	"languages": [
 		{
 			"language": "English",
 			"fluency": "Good working knowledge"
+		},
+		{
+			"language": "Slovenia",
+			"fluency": "Native speaker"
 		}
 	]
 }
